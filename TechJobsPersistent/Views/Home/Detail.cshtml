@@ -1,4 +1,5 @@
-﻿@model TechJobsPersistent.ViewModels.JobDetailViewModel
+﻿@using TechJobsPersistent.ViewModels
+@model TechJobsPersistent.ViewModels.JobDetailViewModel
 
 <h1>@Model.Name</h1>
 
@@ -9,6 +10,7 @@
     </tr>
     <tr>
         <th>Skills</th>
+       
         <td>@Model.SkillText</td>
     </tr>
 
