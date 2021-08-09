@@ -8,4 +8,5 @@ SELECT * FROM techjobs.employers WHERE Location = 'St. Louis City';
 
 --Part 3
 
---SELECT name , description FROM 
+SELECT name, description 
+FROM skills WHERE id IN (SELECT skillid FROM jobskills) ORDER BY name;
